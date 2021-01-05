@@ -552,11 +552,11 @@ optgroup {
 button,
 input {
  overflow:visible
- background: #151515 url("../images/bkg.png") 0 0;
- color: #eaeaea;
 }
 input::placeholder {
   opacity: 1;
+  background: #151515 url("../images/bkg.png") 0 0;
+  color: #eaeaea;
 }
 button,
 select {
