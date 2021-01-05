@@ -53,3 +53,19 @@
        url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.ttf') format('truetype'),
        url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.svg#NotoSans') format('svg');
 }
+
+@font-face {
+  font-family: 'FC Galaxy';
+  font-weight: 100;
+  font-style: normal;
+  src: url('../fonts/FC-Galaxy/FC-Galaxy-Regular.ttf') format('truetype'),
+       url('../fonts/FC-Galaxy/FC-Galaxy-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'FC Galaxy';
+  font-weight: 400;
+  font-style: italic;
+  src: url('../fonts/FC-Galaxy-Italic/FC-Galaxy-Italic.ttf') format('truetype'),
+       url('../fonts/FC-Galaxy-Italic/FC-Galaxy-Italic.otf') format('opentype');
+}
