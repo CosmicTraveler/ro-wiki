@@ -1,6 +1,25 @@
 @import "fonts";
 @import "rouge-github";
 @import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+@include ms-font-face('Leelawadee UI Web', 'leelawadeeui-thai', 'leelawadeeui');
+
+@font-face {
+  font-family: 'Leelawadee UI Web';
+  src: url('#{$ms-font-cdn-path}/leelawadeeui-thai/leelawadeeui-semilight.woff2') format('woff2'),
+       url('#{$ms-font-cdn-path}/leelawadeeui-thai/leelawadeeui-semilight.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+// Leelawadee UI (Thai and Lao) does not have a 'semibold' weight, so we override
+// the font-face generated above to use the 'bold' weight instead.
+@font-face {
+  font-family: 'Leelawadee UI Web';
+  src: url('#{$ms-font-cdn-path}/leelawadeeui-thai/leelawadeeui-bold.woff2') format('woff2'),
+       url('#{$ms-font-cdn-path}/leelawadeeui-thai/leelawadeeui-bold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
 
 .highlight table td {
  padding:5px
