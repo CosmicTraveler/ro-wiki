@@ -3,8 +3,8 @@
     {% include {{ site.inc_before_page_list }} %}
     {% endif %}
 
-    <span class="page-list-title">หน้า {% if (site.show_wiki_pages_limit >= 1 %} (จำนวนมากสุด {{site.show_wiki_pages_limit
-        }}) {% endif %}:</span>
+    <hr style="border: 1px solid white;">
+
     <ul class="page-list">
         {% assign numPages=0 %}
         {% assign items = site.html_pages | sort: 'date' %}
