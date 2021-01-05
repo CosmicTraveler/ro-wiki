@@ -127,6 +127,11 @@ img {
   background-color: inherit !important;
 }
 
+.w3-sidebar {
+  background: $body-background url("../images/bkg.png") 0 0;
+  color: $body-foreground;
+}
+
 #git-wiki-mobile-header {
   position: fixed;
   top: 0;
@@ -147,8 +152,6 @@ img {
   overflow-x: auto;*/
   max-height: 100%;
   padding-bottom: 55px !important;
-  background: $body-background url("../images/bkg.png") 0 0;
-  color: $body-foreground;
 }
 
 @media print,
