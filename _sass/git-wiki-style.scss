@@ -20,6 +20,14 @@
   font-style: normal;
 }
 
+.highlight{
+  background-color: black !important;
+}
+
+code {
+  color: #b5e853 !important;
+}
+
 #git-wiki-content {
   font-family:'Architects Daughter','Leelawadee UI Web',Verdana,sans-serif;
 }
@@ -2236,6 +2244,7 @@ img {
  background-color:#f0f0f0
 }
 strong {
+
  font-weight:700
 }
 #git-wiki-sidebar .git-wiki-downloads li+li+li {
