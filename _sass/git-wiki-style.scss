@@ -1,37 +1,70 @@
-@import "fonts";
-@import "rouge-github";
-@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
-
+@import url("https://fonts.googleapis.com/css?family=Architects+Daughter");
 @font-face {
-  font-family: 'Leelawadee UI Web';
-  src: url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semilight.woff2') format('woff2'),
-       url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semilight.woff') format('woff');
-  font-weight: 100;
-  font-style: normal;
+ font-family:'Noto Sans';
+ font-weight:400;
+ font-style:normal;
+ src:url("../fonts/Noto-Sans-regular/Noto-Sans-regular.eot");
+ src:url("../fonts/Noto-Sans-regular/Noto-Sans-regular.eot?#iefix") format("embedded-opentype"),
+ local("Noto Sans"),
+ local("Noto-Sans-regular"),
+ url("../fonts/Noto-Sans-regular/Noto-Sans-regular.woff2") format("woff2"),
+ url("../fonts/Noto-Sans-regular/Noto-Sans-regular.woff") format("woff"),
+ url("../fonts/Noto-Sans-regular/Noto-Sans-regular.ttf") format("truetype"),
+ url("../fonts/Noto-Sans-regular/Noto-Sans-regular.svg#NotoSans") format("svg")
 }
-
-// Leelawadee UI (Thai and Lao) does not have a 'semibold' weight, so we override
-// the font-face generated above to use the 'bold' weight instead.
 @font-face {
-  font-family: 'Leelawadee UI Web';
-  src: url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-bold.woff2') format('woff2'),
-       url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-bold.woff') format('woff');
-  font-weight: 600;
-  font-style: normal;
+ font-family:'Noto Sans';
+ font-weight:700;
+ font-style:normal;
+ src:url("../fonts/Noto-Sans-700/Noto-Sans-700.eot");
+ src:url("../fonts/Noto-Sans-700/Noto-Sans-700.eot?#iefix") format("embedded-opentype"),
+ local("Noto Sans Bold"),
+ local("Noto-Sans-700"),
+ url("../fonts/Noto-Sans-700/Noto-Sans-700.woff2") format("woff2"),
+ url("../fonts/Noto-Sans-700/Noto-Sans-700.woff") format("woff"),
+ url("../fonts/Noto-Sans-700/Noto-Sans-700.ttf") format("truetype"),
+ url("../fonts/Noto-Sans-700/Noto-Sans-700.svg#NotoSans") format("svg")
 }
-
-.highlight{
-  background-color: black !important;
+@font-face {
+ font-family:'Noto Sans';
+ font-weight:400;
+ font-style:italic;
+ src:url("../fonts/Noto-Sans-italic/Noto-Sans-italic.eot");
+ src:url("../fonts/Noto-Sans-italic/Noto-Sans-italic.eot?#iefix") format("embedded-opentype"),
+ local("Noto Sans Italic"),
+ local("Noto-Sans-italic"),
+ url("../fonts/Noto-Sans-italic/Noto-Sans-italic.woff2") format("woff2"),
+ url("../fonts/Noto-Sans-italic/Noto-Sans-italic.woff") format("woff"),
+ url("../fonts/Noto-Sans-italic/Noto-Sans-italic.ttf") format("truetype"),
+ url("../fonts/Noto-Sans-italic/Noto-Sans-italic.svg#NotoSans") format("svg")
 }
-
-code {
-  color: #b5e853 !important;
+@font-face {
+ font-family:'Noto Sans';
+ font-weight:700;
+ font-style:italic;
+ src:url("../fonts/Noto-Sans-700italic/Noto-Sans-700italic.eot");
+ src:url("../fonts/Noto-Sans-700italic/Noto-Sans-700italic.eot?#iefix") format("embedded-opentype"),
+ local("Noto Sans Bold Italic"),
+ local("Noto-Sans-700italic"),
+ url("../fonts/Noto-Sans-700italic/Noto-Sans-700italic.woff2") format("woff2"),
+ url("../fonts/Noto-Sans-700italic/Noto-Sans-700italic.woff") format("woff"),
+ url("../fonts/Noto-Sans-700italic/Noto-Sans-700italic.ttf") format("truetype"),
+ url("../fonts/Noto-Sans-700italic/Noto-Sans-700italic.svg#NotoSans") format("svg")
 }
-
-#git-wiki-content {
-  font-family:'Architects Daughter','Leelawadee UI Web',Verdana,sans-serif;
+@font-face {
+ font-family:'FC Galaxy';
+ font-weight:100;
+ font-style:normal;
+ src:url("../fonts/FC-Galaxy/FC-Galaxy-Regular.ttf") format("truetype"),
+ url("../fonts/FC-Galaxy/FC-Galaxy-Regular.otf") format("opentype")
 }
-
+@font-face {
+ font-family:'FC Galaxy';
+ font-weight:400;
+ font-style:italic;
+ src:url("../fonts/FC-Galaxy-Italic/FC-Galaxy-Italic.ttf") format("truetype"),
+ url("../fonts/FC-Galaxy-Italic/FC-Galaxy-Italic.otf") format("opentype")
+}
 .highlight table td {
  padding:5px
 }
@@ -61,7 +94,8 @@ code {
  font-style:italic
 }
 .highlight .err {
- background-color:black
+ color:#00b6c7;
+ background-color:#e3d2d2
 }
 .highlight .gd {
  color:#000000;
@@ -248,6 +282,29 @@ code {
 .highlight {
  background-color:#f8f8f8
 }
+@font-face {
+ font-family:'Leelawadee UI Web';
+ src:url("https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semilight.woff2") format("woff2"),
+ url("https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semilight.woff") format("woff");
+ font-weight:100;
+ font-style:normal
+}
+@font-face {
+ font-family:'Leelawadee UI Web';
+ src:url("https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-bold.woff2") format("woff2"),
+ url("https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-bold.woff") format("woff");
+ font-weight:600;
+ font-style:normal
+}
+.highlight {
+ background-color:black !important
+}
+code {
+ color:#b5e853 !important
+}
+#git-wiki-content {
+ font-family:'Architects Daughter','Leelawadee UI Web',Verdana,sans-serif
+}
 .highlight table td {
  padding:5px
 }
@@ -277,7 +334,223 @@ code {
  font-style:italic
 }
 .highlight .err {
- background-color:black
+ background-color:#000
+}
+.highlight .gd {
+ color:#000000;
+ background-color:#fdd
+}
+.highlight .ge {
+ color:#000000;
+ font-style:italic
+}
+.highlight .gr {
+ color:#a00
+}
+.highlight .gh {
+ color:#999
+}
+.highlight .gi {
+ color:#000000;
+ background-color:#dfd
+}
+.highlight .go {
+ color:#888
+}
+.highlight .gp {
+ color:#555
+}
+.highlight .gs {
+ font-weight:bold
+}
+.highlight .gu {
+ color:#aaa
+}
+.highlight .gt {
+ color:#a00
+}
+.highlight .kc {
+ color:#000000;
+ font-weight:bold
+}
+.highlight .kd {
+ color:#000000;
+ font-weight:bold
+}
+.highlight .kn {
+ color:#000000;
+ font-weight:bold
+}
+.highlight .kp {
+ color:#000000;
+ font-weight:bold
+}
+.highlight .kr {
+ color:#000000;
+ font-weight:bold
+}
+.highlight .kt {
+ color:#445588;
+ font-weight:bold
+}
+.highlight .k,
+.highlight .kv {
+ color:#000000;
+ font-weight:bold
+}
+.highlight .mf {
+ color:#099
+}
+.highlight .mh {
+ color:#099
+}
+.highlight .il {
+ color:#099
+}
+.highlight .mi {
+ color:#099
+}
+.highlight .mo {
+ color:#099
+}
+.highlight .m,
+.highlight .mb,
+.highlight .mx {
+ color:#099
+}
+.highlight .sb {
+ color:#d14
+}
+.highlight .sc {
+ color:#d14
+}
+.highlight .sd {
+ color:#d14
+}
+.highlight .s2 {
+ color:#d14
+}
+.highlight .se {
+ color:#d14
+}
+.highlight .sh {
+ color:#d14
+}
+.highlight .si {
+ color:#d14
+}
+.highlight .sx {
+ color:#d14
+}
+.highlight .sr {
+ color:#009926
+}
+.highlight .s1 {
+ color:#d14
+}
+.highlight .ss {
+ color:#990073
+}
+.highlight .s {
+ color:#d14
+}
+.highlight .na {
+ color:teal
+}
+.highlight .bp {
+ color:#999
+}
+.highlight .nb {
+ color:#0086B3
+}
+.highlight .nc {
+ color:#445588;
+ font-weight:bold
+}
+.highlight .no {
+ color:teal
+}
+.highlight .nd {
+ color:#3c5d5d;
+ font-weight:bold
+}
+.highlight .ni {
+ color:purple
+}
+.highlight .ne {
+ color:#990000;
+ font-weight:bold
+}
+.highlight .nf {
+ color:#990000;
+ font-weight:bold
+}
+.highlight .nl {
+ color:#990000;
+ font-weight:bold
+}
+.highlight .nn {
+ color:#555
+}
+.highlight .nt {
+ color:navy
+}
+.highlight .vc {
+ color:teal
+}
+.highlight .vg {
+ color:teal
+}
+.highlight .vi {
+ color:teal
+}
+.highlight .nv {
+ color:teal
+}
+.highlight .ow {
+ color:#000000;
+ font-weight:bold
+}
+.highlight .o {
+ color:#000000;
+ font-weight:bold
+}
+.highlight .w {
+ color:#bbb
+}
+.highlight {
+ background-color:#f8f8f8
+}
+.highlight table td {
+ padding:5px
+}
+.highlight table pre {
+ margin:0
+}
+.highlight .cm {
+ color:#999988;
+ font-style:italic
+}
+.highlight .cp {
+ color:#999999;
+ font-weight:bold
+}
+.highlight .c1 {
+ color:#999988;
+ font-style:italic
+}
+.highlight .cs {
+ color:#999999;
+ font-weight:bold;
+ font-style:italic
+}
+.highlight .c,
+.highlight .cd {
+ color:#999988;
+ font-style:italic
+}
+.highlight .err {
+ background-color:#000
 }
 .highlight .gd {
  color:#000000;
@@ -582,9 +855,9 @@ input {
  overflow:visible
 }
 input::placeholder {
-  opacity: 1;
-  background: #151515 url("../images/bkg.png") 0 0;
-  color: #eaeaea;
+ opacity:1;
+ background:#151515 url("../images/bkg.png") 0 0;
+ color:#eaeaea
 }
 button,
 select {
@@ -2185,7 +2458,7 @@ img {
 #git-wiki-sidebar {
  width:280px !important;
  float:left;
- /*! position:relative !important; */
+ /*! position:relative !important; */;
  -webkit-font-smoothing:subpixel-antialiased;
  /*! max-height:100%; */;
  /*! padding-bottom:55px !important; */
@@ -2242,7 +2515,6 @@ img {
  background-color:#f0f0f0
 }
 strong {
-
  font-weight:700
 }
 #git-wiki-sidebar .git-wiki-downloads li+li+li {
@@ -2382,14 +2654,14 @@ footer {
  color:#d0d0d0
 }
 .highlight .err {
- background-color:black
+ background-color:#000
 }
 .highlight .c,
 .highlight .cd,
 .highlight .cm,
 .highlight .c1,
 .highlight .cs {
- color:#888
+ color:#888;
 }
 .highlight .cp {
  color:#f4bf75
@@ -2432,7 +2704,7 @@ footer {
 .highlight .sh,
 .highlight .sx,
 .highlight .s1 {
- color:#90a959
+ color:#90a959;
 }
 .highlight .sr {
  color:#75b5aa
@@ -2470,7 +2742,7 @@ body {
  color:#eaeaea;
  font-size:16px;
  line-height:1.5;
- font-family:"Architects Daughter",Monaco,"Bitstream Vera Sans Mono","Lucida Console",Terminal,monospace;
+ font-family:"Architects Daughter",Monaco,"Bitstream Vera Sans Mono","Lucida Console",Terminal,monospace
 }
 .container {
  width:90%;
@@ -2516,7 +2788,7 @@ header h1 {
  }
 }
 header h1:before {
- /*! content:"./ "; */
+ /*! content:"./ "; */;
  font-size:24px
 }
 header h2 {
@@ -2576,7 +2848,7 @@ dt {
  font-weight:bold
 }
 ul li {
- list-style-image:url("../images/bullet.png");
+ list-style-image:url("../images/bullet.png")
 }
 blockquote {
  color:#aaa;
